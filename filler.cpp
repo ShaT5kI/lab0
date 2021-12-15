@@ -2,7 +2,7 @@
 
 bool universal::Filler::Comparator::operator()(const std::pair<std::string, int> &a,
                                                 const std::pair<std::string, int> &b) {
-    return a.second < b.second;
+    return a.second > b.second;
 }
 
 void universal::Filler::incList(const std::map<std::string, int> &myMap) {
